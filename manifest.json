@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Fashionphile PR Prep",
+  "version": "1.0",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {},
+  "content_scripts": [
+    {
+      "matches": [
+        "https://github.com/fashionphile*"
+      ],
+      "js": [
+        "titleTools.js",
+        "content.js"
+      ]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
