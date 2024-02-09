@@ -8,10 +8,6 @@ To install this extension manually in Chrome, follow these steps:
 
 1. **Download the Extension**: Clone the repository or download the ZIP file of the extension to your local machine. If downloaded as a ZIP, extract it.
 
-    ```bash
-    git clone URL_OF_THE_GIT_REPO
-    ```
-
 2. **Open Chrome Extensions Page**: In Chrome, navigate to `chrome://extensions/` or access it via Chrome Menu > More Tools > Extensions.
 
 3. **Enable Developer Mode**: Toggle the 'Developer mode' switch on the top right corner of the extensions page to enable it.
